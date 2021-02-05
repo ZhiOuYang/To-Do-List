@@ -1,0 +1,70 @@
+
+.white{
+    background-color: white;
+}
+html *{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.HighlightedItem{
+    color: rgb(0, 0, 0);
+    background-color:  rgb(95, 243, 132);
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+.center{
+    margin: auto;
+    width: 100px;
+    align-content: center;
+}
+.centerText{
+    margin:auto;
+    width:50%;
+    text-align: center;
+    align-content: center;
+}
+
+.centerTextTwo{
+
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+
+}
+
+.darkMode{
+    background-color: rgb(36, 36, 36);
+}
+
+.input{
+    background-color: rgb(66, 66, 66);
+
+}
+.neonText{
+    color:rgb(95, 243, 132);
+    border-color: rgb(95, 243, 132);
+}
+.button{
+    background-color:  rgb(76, 76, 76);
+    color:rgb(95, 243, 132);
+    padding: 5px;
+    border: 0em;
+    border-color: red;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.button:focus{
+    background-color:  rgb(76, 76, 76);
+    color:rgb(95, 243, 132);
+    padding: 5px;
+    border: 0em;
+    border-color: red;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title class=>To Do List</title>
+
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+
+  <body onload="init()" class="darkMode">
+    <h3 class= "neonText center">To Do List</h3>
+    <div>
+        <div class="centerText">
+            <input class="input neonText" id="inputText" type="text" value="" />
+            <button class="neonText button" id="addButton" type="submit" value="Add">Add</button>
+            <br>
+            <button class="sticky neonText button" id="removeButton" type="submit" value="Remove">Remove</button>
+            <button class="sticky neonText button" id="highlightButton" type="submit" value="Highlight">Toggle Highlight</button>
+            <button class="sticky neonText button" id="sortButton" type="submit" value="Sort">Sort</button>
+        </div>
+        <hr class="neonText">
+    </div>
+    <div id="errorMessage" ></div>
+    <div class="centerTextTwo">
+      <form id="formElement">
+      </form>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+  
+</html>
